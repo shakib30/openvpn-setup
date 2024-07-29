@@ -41,7 +41,7 @@ Generate client certificates and configuration files. Repeat this step for each 
 
 ===== 4 =====
 
-docker run -v /srv/openvpn:/etc/openvpn --rm -it kylemanna/openvpn easyrsa build-client-full kota-andolan nopass
+docker run -v /srv/openvpn:/etc/openvpn --rm -it kylemanna/openvpn easyrsa build-client-full CLIENT_NAME nopass
 
 =============
 
